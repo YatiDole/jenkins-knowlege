@@ -22,6 +22,7 @@
 ## Installation
 	* System
 		* Use any Ubuntu Box : for eg. Hashicorp bionic64 (vagrant)
+		* Use CentOS7 Virtual machine image on Virtualbox.
 	
 	* Java
 		* Check for java version : java --version
@@ -43,4 +44,8 @@ Checking status of jenkins service : `sudo systemctl status jenkins`
 Go to http://ip_address:8080 
  `cat /var/lib/jenkins/secrets/initialAdminPassword`
  Add admin user details such as username,password,full name,email id.
+ ![first-admin-user](https://user-images.githubusercontent.com/57376468/118411956-e62eb800-b65c-11eb-8a45-abedcc91ed5b.PNG)
+ <br>
+ ** DNS Mapping**
  
+ ![DNS-mapping](https://user-images.githubusercontent.com/57376468/118411957-e75fe500-b65c-11eb-92bf-1e1d0ab5cf55.PNG)
